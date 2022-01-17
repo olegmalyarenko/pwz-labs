@@ -1,0 +1,22 @@
+h4, h5 {
+    text-align: center;
+}
+.content{
+    margin: 40px 10px;
+    margin-left: 300px;
+}
+
+.image-container {
+margin: 20px 100px
+}
+.example{
+   margin: 30px auto;
+   margin-left: 600px;
+    max-width: 500px;
+    background: wheat;
+    border: solid 1px;
+}
+
+.example-title{
+    padding-left:200px
+}

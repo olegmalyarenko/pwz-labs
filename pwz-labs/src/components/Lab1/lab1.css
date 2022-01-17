@@ -1,0 +1,10 @@
+.lab1-content{
+    display: flex;
+}
+
+.lab1-menu{
+    position: fixed !important; /* Set the navbar to fixed position */
+    top:170px !important;
+  left:20px !important;
+    max-width:260px;
+}

@@ -1,8 +1,8 @@
 import { Tabs } from 'antd';
 import Lab1 from './Lab1';
 
-const { TabPane } = Tabs;
 
+const { TabPane } = Tabs;
 
 const TabList = () => {
     return (
