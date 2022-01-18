@@ -97,7 +97,7 @@ const Content = () => {
         <div className="example"><code> {` <img src="footer.png.png" alt="footer">`}</code></div>
         </div>
         <div id="result" className="content">
-            <h4 style={{paddingRight:60}}>Висновки</h4>
+            <h4>Висновки</h4>
             <h5>Під час виконання цієї Лабораторної роботи ми вивчили основи роботи з HTML документами. <br/>
             А саме, як працювати зі списками та посиланнями, таблицями та формами, а також зображеннями.</h5>
         </div>   
