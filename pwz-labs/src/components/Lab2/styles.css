@@ -1,0 +1,33 @@
+.outside {
+    list-style-position: outside;
+}
+
+.inside {
+    list-style-position: inside;
+}
+
+.kannada{
+    list-style-type: kannada;
+}
+
+.armenian{
+    list-style-type: armenian;
+}
+
+.square{
+    list-style-type: square;
+}
+
+.list-icon{
+    list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+}
+
+#red-title{
+    color:red;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

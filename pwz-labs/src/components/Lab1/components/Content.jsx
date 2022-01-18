@@ -4,6 +4,7 @@ const Content = () => {
     return (
         <div >
         <div id="about" className="content">
+            <h3>ЛАБОРАТОРНА РОБОТА №1</h3>
             <h4>1.Опис предметного середовища додатку TodoList</h4>
             <p> TodoList або список справ, це класичний додаток для пропрацювання можливостей бібліотеки React,який при цьому має достатньо багатий функціонал. </p>
             <h5>З його допомогою ми можемо виконувати такі функції:</h5>
@@ -34,7 +35,7 @@ const Content = () => {
         
 
 
-        <div id="table">
+        <div id="table" className="content">
         <h4 className="example-title">Таблиця</h4>
         <div className="example"> {`<table class="schedule-table" bordercolor="#191919" rules="rows">`}<br/>
             {`<thead style="background: #fc0">`}<br/>
@@ -63,7 +64,7 @@ const Content = () => {
                    {`</table>`}<br/>
               </div>
         </div>
-<div id="form">
+<div id="form" className="content">
 <h4 className="example-title">Форма</h4>
 <div className="example"><code>
 {`<form>`}<br/>
@@ -76,7 +77,7 @@ const Content = () => {
 </div>
 
 
-        <div id="list">
+        <div id="list" className="content">
             <h4 className="example-title">Список та посилання</h4>
             <div className="example"><code> 
             {`<ul>`}<br/>
@@ -91,7 +92,7 @@ const Content = () => {
         {`</header>`}<br/></code></div>
         </div>
 
-        <div id="img">
+        <div id="img" className="content">
         <h4 className="example-title">Зображення</h4>
         <div className="example"><code> {` <img src="footer.png.png" alt="footer">`}</code></div>
         </div>

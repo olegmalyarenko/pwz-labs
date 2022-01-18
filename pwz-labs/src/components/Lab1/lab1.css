@@ -1,8 +1,8 @@
-.lab1-content{
+.lab-content{
     display: flex;
 }
 
-.lab1-menu{
+.lab-menu{
     position: fixed !important; /* Set the navbar to fixed position */
     top:170px !important;
   left:20px !important;
