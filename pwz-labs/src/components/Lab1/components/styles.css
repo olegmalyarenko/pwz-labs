@@ -15,6 +15,7 @@ margin: 20px 100px
     background: wheat;
     border: solid 1px;
     padding: 5px;
+    text-align: left;
 }
 .list{
     margin: 0 auto;
