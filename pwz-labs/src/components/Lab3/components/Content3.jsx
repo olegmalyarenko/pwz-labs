@@ -1,6 +1,5 @@
 import AceEditor from "react-ace";
-
-const task1 = `<div> </div>`
+import task21 from "../constants/task1";
 
 const Content3 = () => (
     <div>
@@ -23,10 +22,15 @@ const Content3 = () => (
            <div className="image-container"><img src="https://i.ibb.co/YTCqLpD/main-page.jpg" alt="img" width={1000} /></div>
         </div>
 
+
+
+
         <div id="code3" className="content">
+            <h4>Завдання №2</h4>
+            <h5>Варіант 17</h5>
             <AceEditor
             mode="html"
-            value={task1}
+            value={task21}
             theme="github"
             name="code3"
             editorProps={{ $blockScrolling: true }}
