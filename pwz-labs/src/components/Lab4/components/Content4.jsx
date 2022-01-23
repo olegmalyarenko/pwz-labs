@@ -1,6 +1,7 @@
 import AceEditor from "react-ace";
 import task1 from "../constants/task1";
 import task2 from "../constants/task2";
+import task3 from "../constants/task3";
 import result from "../static/web41.png";
 
 const Content4 = () => (
@@ -75,9 +76,23 @@ const Content4 = () => (
         <p>Реалізувати можливість уведення довільної кількості чисел у елементи форми <br/> 
         та побудови нормалізованої за максимальним числом гістограми значень цих полів.<br/>
          При візуалізації гістограми використовувати лише засоби CSS. </p>
-         
+         <div className="content">
+                <iframe srcDoc={task3} frameborder="3" width="500" height="700"/><br/><br/>
+                <AceEditor
+                mode="html"
+                value={task3}
+                theme="github"
+                name="task42"
+                editorProps={{ $blockScrolling: true }}
+                />
+            </div>
         </div>    
-
+        
+        <div id="results4" className="center">
+         <h4>Висновки</h4>
+            <h5>Під час виконання Лабораторної роботи ми придбати практичні навички роботи на мові JavaScript,  <br/>
+                зокрема у роботі з елементами DOM, а також з подіями та елементами масива</h5>
+        </div>
 </div>
 
 );
