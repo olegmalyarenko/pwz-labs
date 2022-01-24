@@ -2,6 +2,7 @@ import AceEditor from "react-ace";
 import task51 from "../constants/task51";
 import task52 from "../constants/task52";
 import task53 from "../constants/task53";
+import slider from "../constants/slider";
 
 const Content5 = () => (
 <div className="center">
@@ -70,7 +71,23 @@ const Content5 = () => (
             editorProps={{ $blockScrolling: true }}
             />
             </div>
-        </div>   
+        </div>
+
+          <div id="task52" className="center">
+            <h4>Завдання 2</h4>
+         <p>Додати до  окремої  сторінки плагін галереї. Створити за допомогою бібліотеки::</p>
+         <h5>Slider</h5> 
+         <div className="content" style={{paddingLeft:50}}>
+            <iframe srcDoc={slider} frameborder="3" width="500" height="360"/><br/><br/>     
+            <AceEditor
+            mode="html"
+            value={slider}
+            theme="github"
+            name="task41"
+            editorProps={{ $blockScrolling: true }}
+            />
+            </div>
+         </div>    
 
 </div>
 );
