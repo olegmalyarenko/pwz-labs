@@ -20,21 +20,20 @@ const Content3 = () => (
         </div>
 
         <div id="project3" className="content">
-            <h3>Проект</h3>
+           <h3>ПРОЕКТ</h3>
            <h4>Тема: Додаток для ведення нотаток TodoList</h4>
            <h4>Мета: Створення додаток  за допомогою технологій JavaScript,<br/> з  бібліотекою React, та Java для поглиблення своїх теоретичних та практичних навичок у розробці Web-застосунків</h4>
-           <div className="image-container"><img src="https://i.ibb.co/YTCqLpD/main-page.jpg" alt="img" width={1000} /></div>
+           <div className="content" style={{paddingLeft:50}}>
+           <iframe src="https://olegmalyarenko.github.io/pwz-app/" frameborder="3" width="500" height="500"/>
+           </div>
         </div>
-
-
-
 
         <div id="task31" className="content">
             <h4>Завдання №2</h4>
             <h5>Варіант 17</h5>
 
             <h4>Розмітка за допомогою таблиці</h4>
-            <div className="content">
+            <div className="content" style={{paddingLeft:50}}>
             <iframe srcDoc={task21} frameborder="3" width="500" height="300"/><br/><br/>    
             <AceEditor
             mode="html"
@@ -46,7 +45,7 @@ const Content3 = () => (
             </div> 
 
             <h4 id="task32">Розмітка за допомогою плаваючих блоків</h4>
-            <div className="content">
+            <div className="content" style={{paddingLeft:50}}>
             <iframe srcDoc={task22} frameborder="3" width="500" height="300"/><br/><br/>     
             <AceEditor
             mode="html"
@@ -58,7 +57,7 @@ const Content3 = () => (
             </div> 
         </div>    
 
-        <div id="task33" className="content">
+        <div id="task33" className="content" style={{paddingLeft:50}}>
             <h4>Завдання №3</h4>
             <h4>Розмітка за допомогою FLEXBOX</h4>
             <div className="image-container"><img src="https://i.ibb.co/8skWCTc/task3scr.png" alt="img" width={1000} /></div>

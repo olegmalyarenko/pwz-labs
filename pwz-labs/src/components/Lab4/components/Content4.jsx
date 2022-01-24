@@ -23,10 +23,12 @@ const Content4 = () => (
         </div>
 
         <div id="project4" className="center">
-            <h3>Проект</h3>
+           <h3>ПРОЕКТ</h3>
            <h4>Тема: Додаток для ведення нотаток TodoList</h4>
            <h4>Мета: Створення додаток  за допомогою технологій JavaScript,<br/> з  бібліотекою React, та Java для поглиблення своїх теоретичних та практичних навичок у розробці Web-застосунків</h4>
-           <div className="image-container"><img src="https://i.ibb.co/YTCqLpD/main-page.jpg" alt="img" width={1000} /></div>
+           <div className="content" style={{paddingLeft:50}}>
+           <iframe src="https://olegmalyarenko.github.io/pwz-app/" frameborder="3" width="500" height="500"/>
+           </div>
         </div>
 
         <div id="task41" className="center">
@@ -39,7 +41,7 @@ const Content4 = () => (
                 </ul>
             </div>
 
-            <div className="content">
+            <div className="content" style={{paddingLeft:50}}>
             <iframe srcDoc={task1} frameborder="3" width="500" height="300"/><br/><br/>     
             <AceEditor
             mode="html"
@@ -57,7 +59,7 @@ const Content4 = () => (
             <p>Створити одновимірний массив. Знайти найбільший серед від’ємних та найменший серед додатних елементів масиву.<br/> 
                Упорядкувати масив у порядку зменшення методом вибору. Надрукувати вхідний та вихідний масив.</p>
 
-            <div className="content">
+            <div className="content" style={{paddingLeft:50}}>
                <div className="image-container"><img src={result} alt="img" width={300} /></div>
                 <AceEditor
                 mode="html"
@@ -76,7 +78,7 @@ const Content4 = () => (
         <p>Реалізувати можливість уведення довільної кількості чисел у елементи форми <br/> 
         та побудови нормалізованої за максимальним числом гістограми значень цих полів.<br/>
          При візуалізації гістограми використовувати лише засоби CSS. </p>
-         <div className="content">
+         <div className="content" style={{paddingLeft:50}}>
                 <iframe srcDoc={task3} frameborder="3" width="500" height="700"/><br/><br/>
                 <AceEditor
                 mode="html"

@@ -2,19 +2,21 @@ import "./styles.css";
 
 const Content = () => {
     return (
-        <div >
+        <div className="center">
         <div id="about" className="content">
             <h3>ЛАБОРАТОРНА РОБОТА №1</h3>
             <h4>1.Опис предметного середовища додатку TodoList</h4>
             <p> TodoList або список справ, це класичний додаток для пропрацювання можливостей бібліотеки React,який при цьому має достатньо багатий функціонал. </p>
-            <h5>З його допомогою ми можемо виконувати такі функції:</h5>
-               <ul> 
+
+                <div className="content">    
+               <ul> З його допомогою ми можемо виконувати такі функції:
                  <li>Зберігати список завдань на день</li>
                  <li>Виділяти важливі задачі</li> 
                  <li>Викреслювати виконані задачі</li>  
                  <li>Видаляти непотрібні задачі</li> 
                  <li>Проводити пошук по задачам</li>   
                </ul>
+               </div>
 
                <p>Головна сторінка складається з 3 головних блоків : це шапка, основний контект та футер</p>
                <p>Шапка в свою чергу складається з заголовку з іконкою та навігації, що містить посилання на головну сторінку та сторінку авторів.
@@ -27,13 +29,13 @@ const Content = () => {
 
                      <p>Цей додаток може бути дуже корисним помічником на кожний день, особливо коли поєднуєш роботу та навчання, особливо в період сессії. </p>       
         </div>
-        <div id="topic" className="content">
+        <div id="topic" className="content" style={{paddingLeft:50}}>
            <h4>2.Тема: Додаток для ведення нотаток TodoList</h4>
            <h4>2.Мета: Створення додаток  за допомогою технологій JavaScript,<br/> з  бібліотекою React, та Java для поглиблення своїх теоретичних та практичних навичок у розробці Web-застосунків</h4>
-           <div className="image-container"><img src="https://i.ibb.co/YTCqLpD/main-page.jpg" alt="img" width={1000} /></div>
+           <div className="content">
+           <iframe src="https://olegmalyarenko.github.io/pwz-app/" frameborder="3" width="500" height="500"/>
+           </div>
         </div>
-        
-
 
         <div id="table" className="content">
         <h4 className="example-title">Таблиця</h4>

@@ -28,3 +28,7 @@ code {
 .row > span {
   padding: 0 20px;
 }
+
+.paddingLeft {
+  padding-left: 50px;
+}
