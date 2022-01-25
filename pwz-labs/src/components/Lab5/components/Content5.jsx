@@ -5,6 +5,8 @@ import task53 from "../constants/task53";
 import slider from "../constants/slider";
 import videoplayer from "../constants/videoplayer";
 import gallerry from "../constants/gallery";
+import footer from "../constants/footer";
+import informers from "../constants/informers";
 
 const Content5 = () => (
 <div className="center">
@@ -118,7 +120,39 @@ const Content5 = () => (
          <div id="task53" className="center">
             <h4>Завдання 3</h4>
             <p>Додати до сайту (або до окремої  сторінки) кнопки соціальних мереж: Facebook, Twitter, Instagram, Pinterest.</p>
+            <div className="content" style={{paddingLeft:50}}>
+            <iframe srcDoc={footer}  title="footer" frameborder="3" width="500" height="360"/><br/><br/>     
+            <AceEditor
+            mode="html"
+            value={footer}
+            theme="github"
+            name="footer"
+            editorProps={{ $blockScrolling: true }}
+            />
+            </div>
         </div>    
+
+        <div id="task54" className="center">
+            <h4>Завдання 4</h4>
+            <p>Додати сайту (або до окремої  на сторінці) інформери:</p>
+            <div className="content paddingLeft">
+            <iframe srcDoc={informers}  title="informers" frameborder="3" width="500" height="360"/><br/><br/>     
+            <AceEditor
+            mode="html"
+            value={informers}
+            theme="github"
+            name="footer"
+            editorProps={{ $blockScrolling: true }}
+            />
+            </div>
+        </div>     
+
+        <div id="results5" className="center">
+                <h4>Висновки</h4>
+                <h5>Під час виконання Лабораторної роботи ми придбати практичні навички роботи з JQUERY,  <br/>
+               зокрема з бібліотекою компонентів JQUERY UI, навчилися працювати з бібліотеками для відображення мультімедії, <br/>
+               підключати до сайту інформери, а також додавати іконки соцмереж.</h5>
+            </div>
 </div>
 );
 
