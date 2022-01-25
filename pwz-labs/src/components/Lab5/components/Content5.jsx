@@ -3,6 +3,8 @@ import task51 from "../constants/task51";
 import task52 from "../constants/task52";
 import task53 from "../constants/task53";
 import slider from "../constants/slider";
+import videoplayer from "../constants/videoplayer";
+import gallerry from "../constants/gallery";
 
 const Content5 = () => (
 <div className="center">
@@ -78,17 +80,45 @@ const Content5 = () => (
          <p>Додати до  окремої  сторінки плагін галереї. Створити за допомогою бібліотеки::</p>
          <h5>Slider</h5> 
          <div className="content" style={{paddingLeft:50}}>
-            <iframe srcDoc={slider} frameborder="3" width="500" height="360"/><br/><br/>     
+            <iframe srcDoc={slider} title="slider" frameborder="3" width="500" height="360"/><br/><br/>     
             <AceEditor
             mode="html"
             value={slider}
             theme="github"
-            name="task41"
+            name="task521"
+            editorProps={{ $blockScrolling: true }}
+            />
+            </div>
+
+            <h5>Photo Gallery</h5> 
+            <div className="content" style={{paddingLeft:50}}>
+            <iframe srcDoc={gallerry} title="gallerry" frameborder="3" width="500" height="360"/><br/><br/>     
+            <AceEditor
+            mode="html"
+            value={gallerry}
+            theme="github"
+            name="task522"
+            editorProps={{ $blockScrolling: true }}
+            />
+            </div>
+
+            <h5>Videoplayer Plyr</h5> 
+            <div className="content" style={{paddingLeft:50}}>
+            <iframe srcDoc={videoplayer}  title="videoplayer" frameborder="3" width="500" height="360"/><br/><br/>     
+            <AceEditor
+            mode="html"
+            value={videoplayer}
+            theme="github"
+            name="task523"
             editorProps={{ $blockScrolling: true }}
             />
             </div>
          </div>    
-
+        
+         <div id="task53" className="center">
+            <h4>Завдання 3</h4>
+            <p>Додати до сайту (або до окремої  сторінки) кнопки соціальних мереж: Facebook, Twitter, Instagram, Pinterest.</p>
+        </div>    
 </div>
 );
 
