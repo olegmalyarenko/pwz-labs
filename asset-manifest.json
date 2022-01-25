@@ -1,15 +1,20 @@
 {
   "files": {
     "main.css": "/pwz-labs/static/css/main.b2ea71bc.css",
-    "main.js": "/pwz-labs/static/js/main.60ddddf3.js",
+    "main.js": "/pwz-labs/static/js/main.d323fc4e.js",
     "static/js/787.38b7fe00.chunk.js": "/pwz-labs/static/js/787.38b7fe00.chunk.js",
+    "static/media/lab6t6.jpg": "/pwz-labs/static/media/lab6t6.d52dce8af6fd40dac6e2.jpg",
+    "static/media/lab6t5.jpg": "/pwz-labs/static/media/lab6t5.a2c446899650b6a2e129.jpg",
+    "static/media/lab6t71.jpg": "/pwz-labs/static/media/lab6t71.39caaffb0da506c7e7d9.jpg",
+    "static/media/lab6t72.jpg": "/pwz-labs/static/media/lab6t72.a286a605ddf4f054388b.jpg",
+    "static/media/lab6t4.jpg": "/pwz-labs/static/media/lab6t4.88043b676fb34eb1ebed.jpg",
     "index.html": "/pwz-labs/index.html",
     "main.b2ea71bc.css.map": "/pwz-labs/static/css/main.b2ea71bc.css.map",
-    "main.60ddddf3.js.map": "/pwz-labs/static/js/main.60ddddf3.js.map",
+    "main.d323fc4e.js.map": "/pwz-labs/static/js/main.d323fc4e.js.map",
     "787.38b7fe00.chunk.js.map": "/pwz-labs/static/js/787.38b7fe00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2ea71bc.css",
-    "static/js/main.60ddddf3.js"
+    "static/js/main.d323fc4e.js"
   ]
 }
