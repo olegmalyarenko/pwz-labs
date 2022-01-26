@@ -9,6 +9,17 @@ const ContentTwo = () => (
          різноманітними властивостями кольору і фону,  зовнішними та внутрішними  відступами, плаваючими елементами, оформленням текстових елементів</h4>
        </div>
 
+       <div id="project2" className="content">
+               <h3>ПРОЕКТ</h3>
+               <h4>Тема: Додаток для ведення нотаток TodoList</h4>
+               <h4>Мета: Створення додаток  за допомогою технологій JavaScript,<br/> з  бібліотекою React, та Java для поглиблення своїх теоретичних та практичних навичок у розробці Web-застосунків</h4>
+               <div className="content paddingLeft">
+               <iframe src="https://olegmalyarenko.github.io/pwz-app/" frameborder="3" width="500" height="500"/>
+               </div>
+               <p><a href="https://github.com/olegmalyarenko/pwz-labs">Посилання на репозиторій з лабораторними</a></p>
+               <p><a href="https://github.com/olegmalyarenko/pwz-app">Посилання на репозиторій з </a></p>
+            </div>
+
        <div id="lists" className="content">
        <h4>Списки</h4>
        <h5>Візьмемо звичаний список:</h5>
