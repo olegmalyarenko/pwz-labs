@@ -17,8 +17,8 @@ const ContentTwo = () => (
                <iframe src="https://olegmalyarenko.github.io/pwz-app/" frameborder="3" width="500" height="500"/>
                </div>
                <p><a href="https://github.com/olegmalyarenko/pwz-labs">Посилання на репозиторій з лабораторними</a></p>
-               <p><a href="https://github.com/olegmalyarenko/pwz-app">Посилання на репозиторій з </a></p>
-            </div>
+               <p><a href="https://github.com/olegmalyarenko/pwz-app">Посилання на репозиторій з застосунком</a></p>
+        </div>
 
        <div id="lists" className="content">
        <h4>Списки</h4>
@@ -248,7 +248,7 @@ const ContentTwo = () => (
 
 
 
-        <h5>Групування по дітям першого рівня "#father > li" , та по всім дітям - "#father li"</h5>
+        <h5>Групування по дітям першого рівня {`#father > li`} , та по всім дітям - "#father li"</h5>
 
         <div className="example">{` #father li {`}<br/>
         {`color:#fd0;`}<br/>

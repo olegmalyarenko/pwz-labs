@@ -34,7 +34,7 @@ const Content6 = () => (
                <iframe src="https://olegmalyarenko.github.io/pwz-app/" frameborder="3" width="500" height="500"/>
                </div>
                <p><a href="https://github.com/olegmalyarenko/pwz-labs">Посилання на репозиторій з лабораторними</a></p>
-               <p><a href="https://github.com/olegmalyarenko/pwz-app">Посилання на репозиторій з </a></p>
+               <p><a href="https://github.com/olegmalyarenko/pwz-app">Посилання на репозиторій з  застосунком</a></p>
             </div>
 
 
